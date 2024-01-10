@@ -20,8 +20,8 @@ export const Card = () => {
             <h2>"{advice.advice}"</h2>
             <img src={dividerDesktop} className="divider-desktop" alt="divider"  />
             <img src={dividerMobile} className="divider-mobile" alt="divider" />
-            <div className="dice"  >
-                <img src={icon} onClick={getAdvice} alt="dice"/>
+            <div className="dice"  onClick={getAdvice} >
+                <img src={icon} alt="dice"/>
             </div>
         </div>
     )
