@@ -1,10 +1,10 @@
 import { Card } from "./components/card/Card"
-
+import './App.css'
 function App() {
    
 
   return (
-    <div className="bg-slate-900">
+    <div className="App">
       <Card/>
     </div>
        
